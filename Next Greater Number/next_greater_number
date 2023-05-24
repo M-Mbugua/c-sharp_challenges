@@ -1,0 +1,10 @@
+public class Program
+{
+    public static int DivisibleByB(int a, int b) 
+    {
+			int c = ++a;
+			while (c % b != 0)
+				++c;
+			return c;
+    }
+}
