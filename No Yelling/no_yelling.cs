@@ -8,13 +8,13 @@ public class Program
         if (phrase.EndsWith('!'))
 		{
 			string newPhrase = phrase.TrimEnd('!');
-			return newPhrase + "!";
+			newPhrase + "!";
 		}
 				
 		else if (phrase.EndsWith('?'))
 		{
 			string newPhrase = phrase.TrimEnd('?');
-			return newPhrase + "?";
+			newPhrase + "?";
 		}
 
         return phrase;
